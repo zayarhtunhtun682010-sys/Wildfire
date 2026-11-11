@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical wildfire preparation, evacuation, and smoke-safety guidance for individuals, families, and Asian communities.">
+  <title>Wildfire Safety Guide | Project Crusaders</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="../Photo/bgremoved.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark site-navbar sticky-top py-3">
+    <div class="container">
+      <a class="navbar-brand d-inline-flex align-items-center fw-bold text-uppercase" href="../index.html">
+        <img class="navbar-logo img-fluid" src="../Photo/bgremoved.png" alt="Project Crusaders logo">
+        <span class="brand-name d-flex flex-column">
+          <span class="brand-crusaders">Crusaders</span>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pt-3 pt-lg-0" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1 gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="wildfire-map.html">Wildfire Map</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="safety-guide.html" data-bs-toggle="dropdown">Safety Guide</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="safety-guide.html">Safety Guide overview</a></li>
+              <li><a class="dropdown-item" href="causes-consequences.html">Causes and consequences</a></li>
+              <li><a class="dropdown-item" href="human-caused-wildfires.html">Wildfires caused by humans</a></li>
+              <li><a class="dropdown-item" href="natural-wildfires.html">Natural wildfires</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+          <li class="nav-item d-flex align-items-center"><button class="btn btn-outline-light my-1 text-nowrap" type="button" data-account-action="login">Log In</button></li>
+          <li class="nav-item d-flex align-items-center"><button class="btn btn-warning my-1 text-nowrap" type="button" data-account-action="signup">Sign Up</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero" id="safety-hero">
+      <div class="container py-5 py-lg-5">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-8">
+            <p class="section-label text-uppercase fw-bold mb-3">PREPARE · PROTECT · SUPPORT EACH OTHER</p>
+            <h1 class="display-3 fw-bold mb-4 text-white">Wildfire safety starts <span class="text-white">before the smoke.</span></h1>
+            <p class="lead hero-copy text-white mb-4">
+              A practical guide for you, your household, and the people around you. Make a plan now, know when to leave, and help trusted information reach everyone in your community.
+            </p>
+            <a class="btn btn-warning btn-lg fw-bold me-2 mb-2" href="#prepare">Make a household plan</a>
+            <a class="btn btn-outline-light btn-lg mb-2" href="#during-fire">What to do</a>
+            <a class="btn btn-outline-light btn-lg mb-2" href="#wildfire-topics">Explore More</a>
+          </div>
+          <div class="col-lg-4">
+            <aside class="bg-white bg-opacity-10 border border-light border-opacity-25 p-4 rounded-4">
+              <span class="about-icon d-inline-flex align-items-center justify-content-center rounded-circle fw-bold mb-3">!</span>
+              <p class="text-uppercase fw-bold text-warning mb-2">Remember</p>
+              <h2 class="h4 fw-bold mb-2 text-white">Your safety comes first.</h2>
+              <p class="text-white-50 mb-0">Follow evacuation instructions from local authorities. If you are in immediate danger, call your local emergency number.</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-5 text-light dark-section" id="trusted-resources">
+      <div class="container py-lg-3">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <p class="text-uppercase fw-bold text-warning mb-2">KEEP LEARNING. SHARE WHAT HELPS.</p>
+            <h2 class="h2 fw-bold mb-2">Use trusted, local information.</h2>
+            <p class="mb-0">This guide is a starting point, not a substitute for emergency instructions or medical advice. Local authorities know the conditions where you live.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-grid gap-2">
+              <a class="btn btn-warning fw-bold" href="https://wildfire.concord.org/" target="_blank" rel="noopener noreferrer">Wildfire Simulator</a>
+              <a class="btn btn-outline-light fw-semibold" href="https://www.airnow.gov/wildfires/" target="_blank" rel="noopener noreferrer">AirNow smoke and fires</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 dark-section">
+      <div class="container py-lg-3">
+        <div class="text-center mb-5">
+          <p class="section-label text-uppercase fw-bold mb-2">LEARN THE BASICS</p>
+          <h2 class="display-6 fw-bold mb-3">Understanding Disasters</h2>
+          <p class="mx-auto hero-copy mb-0">Disasters are events that can overwhelm local systems and interrupt daily life, especially when people do not have clear information or a plan.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="h-100 bg-white border rounded-4 p-4 shadow-sm">
+              <h3 class="h5 fw-bold">What they are</h3>
+              <p class="mb-0">A disaster may be sudden, such as a wildfire or earthquake, or it may develop over time, like severe smoke or drought conditions. In either case, the event disrupts safety, transport, communication, and basic services.</p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="h-100 bg-white border rounded-4 p-4 shadow-sm">
+              <h3 class="h5 fw-bold">Why they become dangerous</h3>
+              <p class="mb-0">Risk increases when people are unprepared, when conditions change quickly, or when communities lack warnings, clear routes, and support systems. Even a manageable incident can become serious when multiple needs arise at once.</p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="h-100 bg-warning-subtle border border-warning rounded-4 p-4">
+              <h3 class="h5 fw-bold">How communities respond</h3>
+              <p class="mb-0">Prepared communities rely on local alerts, trained responders, evacuation plans, shelters, and neighbor-to-neighbor support. Early action can reduce harm and make recovery more effective.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 dark-section" id="wildfire-topics">
+      <div class="container py-lg-3">
+        <div class="text-center mb-5">
+          <p class="section-label text-uppercase fw-bold mb-2">LEARN MORE</p>
+          <h2 class="display-6 fw-bold mb-3">Explore wildfire topics</h2>
+          <p class="mx-auto hero-copy mb-0">Learn how wildfires start, what can influence their spread, and how they affect people and communities.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="h-100 bg-white border rounded-4 p-4 shadow-sm">
+              <p class="section-label text-uppercase fw-bold mb-2">PREVENTION</p>
+              <h3 class="h5 fw-bold">Wildfires caused by humans</h3>
+              <p>Learn how everyday activities can start wildfires and what you can do to prevent them.</p>
+              <a class="btn btn-dark fw-semibold" href="human-caused-wildfires.html">Learn about human-caused fires</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 bg-white border rounded-4 p-4 shadow-sm">
+              <p class="section-label text-uppercase fw-bold mb-2">NATURAL IGNITION</p>
+              <h3 class="h5 fw-bold">Natural wildfires</h3>
+              <p>Learn about lightning, weather, and conditions that can make fires spread.</p>
+              <a class="btn btn-dark fw-semibold" href="natural-wildfires.html">Read about natural wildfires</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 bg-white border rounded-4 p-4 shadow-sm">
+              <p class="section-label text-uppercase fw-bold mb-2">COMMUNITY IMPACT</p>
+              <h3 class="h5 fw-bold">Causes and consequences</h3>
+              <p>Understand how wildfires affect health, homes, services, and the environment.</p>
+              <a class="btn btn-dark fw-semibold" href="causes-consequences.html">Explore causes and consequences</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="prepare">
+      <div class="container py-lg-3">
+        <div class="text-center mb-5">
+          <p class="section-label text-uppercase fw-bold mb-2">BE READY BEFORE THERE IS A WARNING</p>
+          <h2 class="display-6 fw-bold mb-3">Build your household plan</h2>
+          <p class="mx-auto hero-copy mb-0">Small steps taken early can make a stressful moment easier. Use this checklist together and adapt it to your household.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="card h-100 rounded-4 shadow-sm bg-warning-subtle border-warning">
+              <div class="card-body p-4 p-lg-5">
+                <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+                  <div>
+                    <p class="text-uppercase fw-bold text-danger mb-2">Your 5-step checklist</p>
+                    <h3 class="h4 fw-bold mb-0">Get ready together</h3>
+                  </div>
+                  <span class="badge bg-warning text-dark rounded-pill px-3 py-2" id="checklist-count" aria-live="polite">0 of 5 ready</span>
+                </div>
+                <div class="progress bg-white mb-4" role="progressbar" aria-label="Household preparedness checklist progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                  <div class="progress-bar bg-warning" id="checklist-progress"></div>
+                </div>
+                <div>
+                  <label class="d-flex align-items-start gap-3 p-3 mb-3 rounded-3 border bg-white">
+                    <input class="form-check-input flex-shrink-0 mt-1" type="checkbox">
+                    <span class="d-block"><strong class="d-block">Choose meeting places.</strong><span class="d-block text-secondary mt-1">Pick one near home and one outside your neighborhood.</span></span>
+                  </label>
+                  <label class="d-flex align-items-start gap-3 p-3 mb-3 rounded-3 border bg-white">
+                    <input class="form-check-input flex-shrink-0 mt-1" type="checkbox">
+                    <span class="d-block"><strong class="d-block">Set a family contact.</strong><span class="d-block text-secondary mt-1">Choose an out-of-area contact and save important numbers on paper.</span></span>
+                  </label>
+                  <label class="d-flex align-items-start gap-3 p-3 mb-3 rounded-3 border bg-white">
+                    <input class="form-check-input flex-shrink-0 mt-1" type="checkbox">
+                    <span class="d-block"><strong class="d-block">Pack essentials.</strong><span class="d-block text-secondary mt-1">Include medications, water, food, a flashlight, chargers, and copies of key documents.</span></span>
+                  </label>
+                  <label class="d-flex align-items-start gap-3 p-3 mb-3 rounded-3 border bg-white">
+                    <input class="form-check-input flex-shrink-0 mt-1" type="checkbox">
+                    <span class="d-block"><strong class="d-block">Plan for everyone.</strong><span class="d-block text-secondary mt-1">Arrange transport and support for children, older adults, people with disabilities, and pets.</span></span>
+                  </label>
+                  <label class="d-flex align-items-start gap-3 p-3 mb-0 rounded-3 border bg-white">
+                    <input class="form-check-input flex-shrink-0 mt-1" type="checkbox">
+                    <span class="d-block"><strong class="d-block">Sign up for local alerts.</strong><span class="d-block text-secondary mt-1">Know where your local emergency office posts evacuation and shelter information.</span></span>
+                  </label>
+                </div>
+                <button class="btn btn-outline-dark btn-sm mt-4" id="reset-checklist" type="button">Reset checklist</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="bg-dark text-light h-100 rounded-4 p-4 p-lg-5">
+              <p class="text-uppercase fw-bold text-warning mb-2">Make it work for you</p>
+              <h3 class="h4 fw-bold text-light mb-4">A plan everyone can use</h3>
+              <ul class="ps-4 text-white-50 mb-0">
+                <li>Write down the plan and keep a copy where everyone can find it.</li>
+                <li>Agree on a simple way to check in if phone service is disrupted.</li>
+                <li>Ask neighbors or community groups how to share alerts in preferred languages.</li>
+                <li>Practice your evacuation route and identify an alternate route.</li>
+                <li>Review your plan when household needs or local conditions change.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="during-fire">
+      <div class="container py-lg-3">
+        <div class="text-center mb-5">
+          <p class="section-label text-uppercase fw-bold mb-2">WHEN A WILDFIRE IS NEARBY</p>
+          <h2 class="display-6 fw-bold mb-3">Act early. Follow local instructions.</h2>
+          <p class="mx-auto hero-copy mb-0">Conditions can change quickly. Use official local alerts and emergency services for decisions about your area.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="bg-light border border-warning h-100 rounded-4 p-4">
+              <span class="rounded-circle d-inline-flex align-items-center justify-content-center fw-bold mb-3 bg-warning text-dark p-3">01</span>
+              <h3 class="h5 fw-bold">If told to evacuate</h3>
+              <p class="mb-0">Evacuate immediately, by going the recommended route. Take members of your family with you, plus family pets. Medications and go-bag also. Do not stop for anything.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-light border border-warning h-100 rounded-4 p-4">
+              <span class="rounded-circle d-inline-flex align-items-center justify-content-center fw-bold mb-3 bg-warning text-dark p-3">02</span>
+              <h3 class="h5 fw-bold">If you see danger</h3>
+              <p class="mb-0">Move to a place that is clear of flames and smoke. When it is safe to do so call your local emergency number. Give people accurate information (not rumours)</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-light border border-warning h-100 rounded-4 p-4">
+              <span class="rounded-circle d-inline-flex align-items-center justify-content-center fw-bold mb-3 bg-warning text-dark p-3">03</span>
+              <h3 class="h5 fw-bold">If you need help</h3>
+              <p class="mb-0">Contact emergency services or local authorities and state where you are and what support you need. Follow their instructions and take shelter at an official shelter if advised to do so.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="smoke-safety">
+      <div class="container py-lg-3">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-5">
+            <p class="section-label text-warning text-uppercase fw-bold mb-2">PROTECT YOUR HEALTH</p>
+            <h2 class="display-6 fw-bold mb-3">When smoke affects your area</h2>
+            <p class="text-white-50 mb-0">Wildfire smoke can affect anyone, especially children, older adults, pregnant people, and people with heart or lung conditions.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="h-100 rounded-4 p-4 bg-warning-subtle border border-warning">
+                  <h3 class="h5 fw-bold">Reduce exposure</h3>
+                  <p class="text-secondary mb-0">Check local air-quality guidance. When advised, stay indoors, keep windows and doors closed, and use cleaner indoor air if available.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="h-100 rounded-4 p-4 bg-warning-subtle border border-warning">
+                  <h3 class="h5 fw-bold">Get reliable updates</h3>
+                  <p class="text-secondary mb-0">Monitor local health and emergency alerts. Follow your care plan and contact a health professional if symptoms worsen.</p>
+                </div>
+              </div>
+            </div>
+            <p class="text-white-50 mt-3 mb-0">An N95 respirator may reduce exposure to particles when properly fitted, but it does not protect against all gases or make unsafe air safe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="institutional-response">
+      <div class="container py-lg-3">
+        <div class="text-center mb-5">
+          <p class="section-label text-uppercase fw-bold mb-2">RESPONSE AND SUPPORT</p>
+          <h2 class="display-6 fw-bold mb-3">Institutional Response &amp; Who to Call</h2>
+          <p class="mx-auto hero-copy mb-0">Wildfire response is organized locally, and agency names and emergency numbers differ across Asia. Follow official instructions for the country and area where you are.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="card h-100 rounded-4 shadow-sm">
+              <div class="card-body p-4 p-lg-5">
+                <h3 class="h4 fw-bold mb-3">How institutions respond</h3>
+                <ul class="mb-0">
+                  <li class="mb-3"><strong>Fire and rescue services</strong> respond to reported fires, protect people, and coordinate firefighting and rescue.</li>
+                  <li class="mb-3"><strong>Local authorities and emergency management</strong> issue local warnings, evacuation directions, and shelter information.</li>
+                  <li class="mb-3"><strong>Forestry and land-management agencies</strong> monitor fires and may coordinate response on forests or protected lands.</li>
+                  <li><strong>Environmental and public-health agencies</strong> share air-quality updates and advice for reducing smoke exposure.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card h-100 rounded-4 border-warning dark-panel">
+              <div class="card-body p-4 p-lg-5">
+                <h3 class="h4 fw-bold mb-3">Who to call</h3>
+                <ul class="mb-3">
+                  <li class="mb-3"><strong>Fire, smoke, or immediate danger:</strong> move to safety and call the emergency number used in your location.</li>
+                  <li class="mb-3"><strong>To report a wildfire:</strong> contact local fire and rescue services or the responsible forestry authority.</li>
+                  <li class="mb-3"><strong>Evacuation or shelter updates:</strong> check local government and emergency-management channels.</li>
+                  <li><strong>Smoke or air-quality concerns:</strong> follow local environmental and public-health guidance.</li>
+                </ul>
+                <p class="mb-0">Do not approach a fire to investigate. Emergency numbers and agency responsibilities vary by country; use official local information.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer py-4 text-light">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-1 fw-semibold">Wildfire Watch</p>
+          <p class="text-white mb-0">© 2026 Project Crusaders. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav justify-content-center justify-content-md-end gap-2 gap-sm-3 row-gap-2 row-gap-sm-1">
+            <li class="nav-item"><a class="nav-link rounded-1 py-1 px-2" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link rounded-1 py-1 px-2" href="wildfire-map.html">Wildfire Map</a></li>
+            <li class="nav-item"><a class="nav-link rounded-1 py-1 px-2" href="safety-guide.html">Safety Guide</a></li>
+            <li class="nav-item"><a class="nav-link rounded-1 py-1 px-2" href="about_us.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap handles the navigation menus and details window. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
